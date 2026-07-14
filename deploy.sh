@@ -4,7 +4,7 @@
 # DevOps Toolkit - deploy.sh (v1.0.0)
 # Lightweight, dependency-free interactive deployment script for PM2-Node services.
 # Designed to run in-memory via curl-to-bash:
-#   bash <(curl -fsSL https://raw.githubusercontent.com/srinivassarkar/pm2_deployment/main/deploy.sh)
+#   sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/srinivassarkar/pm2_deployment/main/deploy.sh)"
 # ==============================================================================
 
 # Exit on error for critical steps, but manage interactive flows manually

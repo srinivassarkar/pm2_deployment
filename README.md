@@ -23,7 +23,7 @@ ssh ubuntu@your-server-ip
 Then run the script in memory (it requires root privileges, so run with `sudo`):
 
 ```bash
-sudo bash <(curl -fsSL https://raw.githubusercontent.com/srinivassarkar/pm2_deployment/main/deploy.sh)
+sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/srinivassarkar/pm2_deployment/main/deploy.sh)"
 ```
 
 Alternatively, if you have cloned the repository locally for development, you can execute:
